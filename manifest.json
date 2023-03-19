@@ -1,0 +1,33 @@
+{
+    "name": "Website Text Editor",
+    "version": "1.0.5",
+    "description": "This is an extension to edit website text.",
+    "manifest_version": 3,
+    "author": "Noah G. Nielsen | website: b0tcreati0n.carrd.co",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs"
+    ],
+    "host_permissions": [
+      "https://example.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://example.com/*"
+        ],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "options.html",
+      "default_title": "Website Text Editer"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+        "360": "pictures/icon360.png" }
+  }
+  
