@@ -4,10 +4,10 @@
 2. Open the "Website Text Editer" folder
 3. Left click on the file "manifest.json", Hold the mouse over "open with", Then choose "Notepad" (If "Notepad" is not there choose "Choose another app ", Then scroll down to "Notepad" and double clik)
 4. Pres "chrl + H" on your keyboard
-5. In the input field "Find" isert example.com
-6. In the input field "Replace" isert your website domain
+5. In the input field "Find" insert "example.com"
+6. In the input field "Replace" insert your website domain
 7. Then choose "Replace all"
-8. Pres "chrl + S"
+8. Pres "ctrl + S"
 >You may now close the Notepad and Windows Explorer
 >Note: Do NOT touch any other files or edit parts of manifest.json that is not being told
 
